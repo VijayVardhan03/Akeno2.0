@@ -20,15 +20,15 @@ from Manager.modules.helper_funcs.chat_status import is_user_admin
 from Manager.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hello dude {}, my name is [Vexana](https://telegra.ph/file/bff3e601c362e11221773.jpg)!
+Hello dude {}, my name is [Evil Pikachu](https://telegra.ph/file/5165112bb0c2a2a5c319b.jpg)!
 I'm a Telegram next generation advance Group Management Bot .
 
 I can Help you in Smart managing your chats with built in A.I.
 
 I can't change the direction of the wind, but I can adjust my sails to always reach my destination.
  
-My future updates will be posted on [Vexana Updates](t.me/Vexana_updates) If you have any queries on how to use me than visit [Akeno Support](t.me/AkenoXSupport)
- Maintained by  [Devs](t.me/itzz_axel)
+My future updates will be posted on [Vijay Bots](t.me/evilpikachubotchat) If you have any queries on how to use me than visit [Akeno Support](t.me/AkenoXSupport)
+ Maintained by  [Vijay](t.me/Vijay_61)
  
 Hit /help to find out more about how to use me on full potential.
 """
@@ -50,7 +50,7 @@ Pls note report any bugs here @Vexana_support.
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
-DONATE_STRING = """Heya, glad to hear you want to donate! I'm not accepting any donations right now, still, if needed, drop a thanks to @itzz_axel."""
+DONATE_STRING = """Heya, glad to hear you want to donate! I'm not accepting any donations right now, still, if needed, drop a thanks to @Vijay_61."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -236,7 +236,7 @@ def get_help(bot: Bot, update: Update):
         update.effective_message.reply_text("Contact me in PM to get the list of possible commands.",
                                             reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="Help",
-                                                                       url="t.me/{}?start=help".format(
+                                                                       url="t.me/{evilpikachurobot}?start=help".format(
                                                                            bot.username))]]))
         return
 
